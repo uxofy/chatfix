@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "chatclickfix",
+  "version": "${version}",
+  "name": "Chat Click Fix",
+  "description": "Restores clicks on chat components when another mod swallows them.",
+  "environment": "client",
+  "mixins": ["chatclickfix.mixins.json"],
+  "depends": { "fabricloader": ">=0.17.2", "minecraft": "1.21.11", "java": ">=21" }
+}

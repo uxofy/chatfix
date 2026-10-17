@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "chatclickfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ChatClickFixMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
